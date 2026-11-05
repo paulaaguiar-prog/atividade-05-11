@@ -1,0 +1,93 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* Formulário */
+form {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    outline: none;
+
+    background: rgba(255, 255, 255, 0.95);
+    color: #243b55;
+    font-size: 15px;
+
+    transition: 0.3s ease;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #888;
+}
+
+/* Efeito ao clicar */
+input:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 12px rgba(0, 212, 255, 0.4);
+    transform: scale(1.02);
+}
+
+/* Botão */
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #00d4ff, #0072ff);
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+/* Hover do botão */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 114, 255, 0.4);
+    filter: brightness(1.1);
+}
+
+/* Clique */
+button:active {
+    transform: scale(0.97);
+}
+
+.cor{
+    color: #ffffff ;
+    border: #b4bbc9;
+} 

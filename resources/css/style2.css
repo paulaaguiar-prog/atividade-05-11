@@ -1,0 +1,33 @@
+
+/* Botão */
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #00d4ff, #0072ff);
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+/* Hover do botão */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 114, 255, 0.4);
+    filter: brightness(1.1);
+}
+
+/* Clique */
+button:active {
+    transform: scale(0.97);
+}
+
+.cor{
+    color: #c20000 ;
+    background-color: #252e3f;
+} 
